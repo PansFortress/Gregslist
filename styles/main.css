@@ -1,5 +1,5 @@
-.nav-header{
-    position: absolute;
+header{
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -12,20 +12,67 @@
     position: absolute;
 }
 
-.top-nav{
-    position:relative;
+nav{
+    position: absolute;
+    right: 10px;
+    top: 10px;
     height: 50px;
 }
 
-.nav-ul{
-    list-style: none;
+nav a{
+    padding: 0 20px;
 }
 
 main{
     position: absolute;
     top: 50px;
+    left: 50px;
+    width: 1200px;
 }
 
-.content{
+section{
+    padding-top: 25px;
+}
+
+.search{
     color: red;
+}
+
+.search input{
+    width: 600px;
+}
+
+.search-img{
+    border-radius: 3px;
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+}
+
+.search_pagination{
+    display: inline-block;
+}
+
+.pagination{
+    padding: 10px;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+.result{
+    padding-right: 10px;
+}
+
+.result.date{
+    color: gray;
+}
+
+.result.title{
+    color:blue;
+    font-weight: bold;
+}
+
+.result.location{
+    color:gray;
 }

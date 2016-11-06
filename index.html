@@ -5,19 +5,31 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-    <header class="nav-header">
+    <header>
         <p class="nav-icon">Greg's List</p>
-        <nav class="top-nav">
-            <ul class="nav-ul">
-                <li><a href="#">Post</a></li>
-                <li><a href="#">Account</a></li>
-            </ul>
+        <nav>
+            <a href="#">Post</a>
+            <a href="#">Account</a>
         </nav>
     </header>  
+
     <main>
-    <section class="content">
-        <p>Some text</p>
+    
+    <section class="search">
+        <input placeholder= "Search Software Jobs" name="search_bar">
+        <img class="search-img" src="imgs/magnifying-glass.png">
     </section>
+
+    <section class="search_pagination"> 
+    <p><span class="pagination prev>">< prev</span><span class="pagination count">1 to 100 of 179</span><span class="pagination next">next ></span> </p>
+    </section>
+
+    <section class="search_results">
+    <p><span class="result date">June 22</span><span class="result title">Technical Project Manager</span><span class="result location">Midtown East</span></p>
+    <p><span class="result date">June 21</span><span class="result title">Frontend Developer</span><span class="result location">Soho</span></p>
+    <p><span class="result date">June 20</span><span class="result title">Senior Python Developer/Cofounder</span><span class="result location">Flatiron</span></p>
+    </section>
+
     </main>
 </body>
 </html>
